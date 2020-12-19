@@ -1,0 +1,32 @@
+<h1>Tenant Info</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form method="POST" action="/tenant/add">
+  <div class="form-group">
+    <label>ID</label>
+    <input type="text" name="id" class="form-control" value={{tenant.id}}>
+  </div>
+  <div class="form-group">
+    <label>Unit#</label>
+    <input type="text" name="unit_number" class="form-control" value={{tenant.unit_number}}>
+  </div>
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" name="first_name" class="form-control" value={{tenant.first_name}}>
+  </div>
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" name="last_name" class="form-control" value={{tenant.last_name}}>
+  </div>
+  <div class="form-group">
+    <label>Email</label>
+    <input type="text" name="email" class="form-control" value={{tenant.email}}>
+  </div>
+  <div class="form-group">
+    <label>Phone</label>
+    <input type="text" name="phone" class="form-control" value={{tenant.phone}}>
+  </div>
+  <input type="submit" class="btn btn-primary" value="Update">
+</form>
+<form method="POST" action="/tenant/delete/{{tenant.id}}?_method=DELETE">
+  <input type="submit" class="btn btn-danger pull-right" value="Delete">
+</form>

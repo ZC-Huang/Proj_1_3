@@ -1,0 +1,8 @@
+<h1>Search Tenant ID</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form class="form-inline" method="POST" action="/tenant/search">
+  <div class="form-group">
+    <input type="text" name="id" class="form-control" placeholder="Search Tenants By ID">
+  </div>
+  <input type="submit" class="btn btn-primary" value="Search">
+</form>
