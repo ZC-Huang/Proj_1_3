@@ -1,12 +1,9 @@
-# RedUsers
-Simple user management app using Node.js and Redis
+# Project 3
+# Simple Apartment Community Management System
 
-### Version
-1.0.0
+## How to use
 
-## Usage
-
-Make sure you have Redis installed and running
+Install Redis
 
 Install Dependencies
 
