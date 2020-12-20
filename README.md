@@ -1,7 +1,7 @@
 # Project 3
-# Simple Apartment Community Management System
+## Simple Apartment Community Management System
 
-## How to use
+### How to use
 
 Install Redis
 
