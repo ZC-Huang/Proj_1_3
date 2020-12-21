@@ -1,0 +1,7 @@
+﻿Project 3 Data Structure
+
+
+As stated in the requirements, this database should be able to display and allow the users to actively modify the information of tenants and apartment units in one place.
+
+
+Because tenants and apartment units are objects that will introduce lots of multiple fields of values, I think applying a hash structure in this Redis database would be the most appropriate. With the hash structure, I would be able to use functions such as HSET and HGETALL to quickly process the data in the way I like with the least hassle.
