@@ -1,0 +1,8 @@
+﻿Project 3 Requirements
+
+
+The requirements for this project are very similar to project 1 and 2. The requirement docs and UML diagrams are also included in the folder.
+However, to better utilize the advantages of Redis as an in-memory key-value database, I added some additional functionalities that I want to implement.
+
+
+Since this database is designed for apartment community management, I expect this database to be able to display and modify the information of tenants and units on the same page seamlessly. This is very important considering the management team will have to process and update information very frequently and there are lots of fields of values needed to be taken care of at the same time.
